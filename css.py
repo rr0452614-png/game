@@ -172,7 +172,6 @@ def game_loop():
         # Delete the tail if the snake hasn't eaten
         if len(snake_segments) > snake_length:
             del snake_segments[0]
-        
         # --- Drawing ---
         screen.fill(BLACK) # Clear the screen
 
